@@ -1,0 +1,79 @@
+
+.div {
+    width: auto;
+    height: auto;
+    background-color: rgba(174, 230, 227, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    position: relative;
+    border: 1px solid #000;
+  }
+
+  .buton {
+    background-color: #dc8181;
+    color: #000;
+    border: 1px solid #dc8181;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: auto;
+    height: auto;
+    font-family: 'Cascadia Code', monospace;
+    font-weight: bolder;
+    border: 1px solid #000;
+  }
+  
+  .buton:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
+
+   .name {
+    font-family: 'Cascadia Code', monospace;
+    font-weight: 300;
+    font-weight: bolder;
+   }
+   .border {
+    border-radius: 10px;
+    border: 2px solid #000;
+  }
+
+  .butonyf {
+    background-color: #dc8181;
+    color: #000;
+    border: 1px solid #000000;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: auto;
+    height: auto;
+    font-family: 'Cascadia Code', monospace;
+    font-weight: bolder;
+  }
+  
+  .butonyf:hover {
+    background-color: #ffffff;
+    color: #fff;
+  }
+  .butonnf {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #000000;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: auto;
+    height: auto;
+    font-family: 'Cascadia Code', monospace;
+    font-weight: bolder;
+  }
+  
+  .butonnf:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }

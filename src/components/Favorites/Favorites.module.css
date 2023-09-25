@@ -1,0 +1,36 @@
+.div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div:nth-child(n + 5) {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.selectcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.selectcontainer select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.centerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
